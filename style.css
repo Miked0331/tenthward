@@ -42,9 +42,26 @@ input[type=text], select, textarea {
 
   .nav-container {
       display: flex;
-      border: solid black 2px;
+      border: solid black 1px;
+      list-style-type: none;
+      justify-content: space-around;
+      margin: 0 10% 0 10%;
   }
 
-.give {
-    flex: 1;
-}
+  ul {
+    text-decoration: none;
+  }
+
+  .give {
+    justify-content: flex-end;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .nav-container {
+      
+      margin: 0px;
+      display: inline-flex;
+      align-content: center;
+      
+    }
+  }
