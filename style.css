@@ -39,3 +39,12 @@ input[type=text], select, textarea {
       
     }
   }
+
+  .nav-container {
+      display: flex;
+      border: solid black 2px;
+  }
+
+.give {
+    flex: 1;
+}
