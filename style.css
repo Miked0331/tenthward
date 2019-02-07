@@ -46,10 +46,11 @@ input[type=text], select, textarea {
       list-style-type: none;
       justify-content: space-around;
       margin: 0 10% 0 10%;
+      color: black;
   }
 
-  ul {
-    text-decoration: none;
+  li:hover {
+    color:green;
   }
 
   .give {
