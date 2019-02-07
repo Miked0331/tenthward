@@ -47,11 +47,16 @@ input[type=text], select, textarea {
       justify-content: space-around;
       margin: 0 10% 0 10%;
       color: black;
+      padding: 1em 0 1em 0;
   }
 
-  li:hover {
+  a:hover {
     color:green;
   }
+
+a {
+  text-decoration: none;
+}
 
   .give {
     justify-content: flex-end;
@@ -64,4 +69,16 @@ input[type=text], select, textarea {
   text-align: center;
       
     }
+  }
+
+  .landing {
+    text-align: center;
+border: solid black 1px;
+margin: 0 10% 0 10%;
+
+  }
+
+  .landing img {
+    width: 100%;
+   
   }
