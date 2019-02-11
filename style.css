@@ -43,6 +43,7 @@ input[type=text], select, textarea {
   /*Background color*/
   body {
     background-color: FFF8DC;
+    margin-top: 0;
   }
  /* navigation and styling*/
   .nav-container {    
