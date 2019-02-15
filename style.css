@@ -33,6 +33,13 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+  @media only screen and (max-width: 1024px) {
+    .form-container {
+      margin: 0px;
+      
+        }
+  }
+
   @media only screen and (max-width: 600px) {
     .form-container {
       margin: 0px;
@@ -65,13 +72,10 @@ input[type=text], select, textarea {
     color: white;
   }
   a {
+    color: white;
     text-decoration: none;
   }
 
- ul :hover {
-    color: green;
-    background-color: gray;
-  } 
   
 /* Responsive Nav for mobile and tablet*/
   @media only screen and (max-width: 1024px) {
@@ -86,7 +90,8 @@ input[type=text], select, textarea {
       margin: 0px;
     display: block;
     text-align: center;
-      font-size: 1.5em;
+      font-size: 1.3em;
+      padding: 10px 0 10px 0;
      
     }
   }
