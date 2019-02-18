@@ -57,7 +57,7 @@ input[type=text], select, textarea {
       display: flex;
       border: solid black 1px;      
       justify-content: space-around;
-      margin: 0 3% 0 3%;
+      
       color: white;
       background-color: black;
       padding: 1em 0 1em 0;
@@ -107,7 +107,6 @@ input[type=text], select, textarea {
   /*Landing (index) page */
   .landing {    
     text-align: center;
-  margin: 0 3% 0 3%;
   }
 
   .landing img {
@@ -137,7 +136,7 @@ input[type=text], select, textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 3% 0 3%;
-  border: solid black 2px;
+  
   grid-gap: 8px;
   }
 
