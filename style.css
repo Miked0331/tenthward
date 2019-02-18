@@ -56,8 +56,7 @@ input[type=text], select, textarea {
   .nav-container {    
       display: flex;
       border: solid black 1px;      
-      justify-content: space-around;
-      
+      justify-content: space-around;      
       color: white;
       background-color: black;
       padding: 1em 0 1em 0;
@@ -107,6 +106,7 @@ input[type=text], select, textarea {
   /*Landing (index) page */
   .landing {    
     text-align: center;
+    margin: 0 3% 0 3%;
   }
 
   .landing img {
