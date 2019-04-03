@@ -74,6 +74,9 @@ input[type=text], select, textarea {
     color: white;
     text-decoration: none;
   }
+  a:hover {
+    color:gray;
+  }
 
   
 /* Responsive Nav for mobile and tablet*/
