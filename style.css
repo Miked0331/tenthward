@@ -109,7 +109,7 @@ input[type=text], select, textarea {
   /*Landing (index) page */
   .landing {    
     text-align: center;
-    margin: 0 3% 0 3%;    
+    margin: 0 15% 0 15%;    
   }
 
   .landing img {
@@ -168,6 +168,11 @@ footer {
   background-color: lightcyan ;
 }
 
+/*Link page stylesheet*/
+.links {
+  margin: 0% 10% 0% 10%;
+
+}
 /* Typewrite effect*/
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -178,6 +183,10 @@ footer {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+}
+
+.typewriter {
+  margin:0% 16% 0% 16%;
 }
 
 /* The typing effect */
