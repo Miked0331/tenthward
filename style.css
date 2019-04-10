@@ -117,6 +117,12 @@ input[type=text], select, textarea {
     max-height: 38vh;
   }
 
+  @media only screen and (max-width: 600px) {
+  .landing {
+      margin: 0;
+    }
+  }
+
   /*Landing responsiveness
   @media only screen and (max-width: 1024px) {
     .landing {
