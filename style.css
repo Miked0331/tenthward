@@ -191,3 +191,10 @@ footer {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
+
+@media only screen and (max-width: 600px) {
+  .typewriter h1 {
+    font-size: 1.7em;
+    letter-spacing: .13em;
+  }
+} 
