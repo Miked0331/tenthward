@@ -177,8 +177,18 @@ footer {
 /*Link page stylesheet*/
 .links {
   margin: 0% 10% 0% 10%;
-
 }
+
+/*a links page styling*/
+a.links {
+  color: red;
+}
+
+a.links:hover {
+  color: black;
+  background-color: red;
+}
+
 /* Typewrite effect*/
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
