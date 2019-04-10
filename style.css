@@ -194,7 +194,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .typewriter h1 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     letter-spacing: .13em;
   }
 } 
