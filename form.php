@@ -1,6 +1,9 @@
+<?php
+  if (isset($_POST[name]) && isset($_POST[email])) {
+    
+  } ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,11 +49,11 @@
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <button type="submit" value="Submit">Submit</button>
-
-
   </form>
+
 </div>
 </body>
+
 <script src="script.js"></script>
 <footer>
   @LaRoche.edu
