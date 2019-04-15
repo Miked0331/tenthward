@@ -229,23 +229,6 @@ button {
     }
   }
 
-  /*Landing responsiveness
-  @media only screen and (max-width: 1024px) {
-    .landing {
-      margin: 0;
-    display: block;
-    text-align: center;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    .landing {
-      margin: 0px;
-    display: block;
-    text-align: center;
-    }
-  }*/
-
 /*define grid layout on index page*/
 .grid {
   display: grid;
@@ -292,7 +275,7 @@ a.links {
 }
 
 a.links:hover {
-  color: black;
+  color: white;
   background-color: red;
 }
 
