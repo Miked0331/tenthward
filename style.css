@@ -266,6 +266,8 @@ footer {
 /*Link page stylesheet*/
 .links-div {
   margin: 0% 10% 0% 10%;
+  border-left: 2px inset black;
+  border-right: 2px inset black;
 }
 
 /*a links page styling*/
@@ -281,6 +283,12 @@ a.links:hover {
 
 .links-content {
   margin: 5% 0 5% 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.links-title {
+  text-align: center;
 }
 
 /* Typewrite effect*/
