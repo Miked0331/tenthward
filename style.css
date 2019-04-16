@@ -270,6 +270,11 @@ footer {
   border-right: 2px inset black;
 }
 
+.links-icon {
+  max-width: 100%;
+  height: auto;
+}
+
 /*a links page styling*/
 a.links {
   color: red;
