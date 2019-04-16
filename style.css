@@ -271,8 +271,15 @@ footer {
 }
 
 .links-icon {
-  max-width: 100%;
+  width: 100%;
+  max-width: 220px;
   height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .links-icon {
+    width: 150px;
+  }
 }
 
 /*a links page styling*/
