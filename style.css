@@ -266,8 +266,8 @@ footer {
 /*Link page stylesheet*/
 .links-div {
   margin: 0% 10% 0% 10%;
-  border-left: 2px inset black;
-  border-right: 2px inset black;
+  border-style: solid;
+  border-radius: 25px 25px;
 }
 
 .links-icon {
