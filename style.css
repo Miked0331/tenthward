@@ -215,15 +215,15 @@ button {
   /*Landing (index) page */
   .landing {    
     text-align: center;
-    margin: 0 15% 0 15%;    
+    margin: 0 15% 0 15%;  
   }
 
   .landing img {
-    width: 100%;   
-    max-height: 20vh;
+    max-width: 60%;   
+    max-height: 60%;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 780px) {
   .landing {
       margin: 0;
     }
