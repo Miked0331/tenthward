@@ -261,15 +261,14 @@ button {
 } 
 
 footer {
+  color: white;
   height: 10vh;
-  background-color: lightcyan ;
+  background-color: #555;
 }
 
 /*Link page stylesheet*/
 .links-div {
   margin: 0% 10% 0% 10%;
- /* border-style: solid;
-  border-radius: 25px 25px;*/
 }
 
 .links-icon {
