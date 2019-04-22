@@ -31,9 +31,15 @@
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
+
+
+  <img name="slide" class="slide" src="" width="400" height="200" alt=""></img>
+
   <div class="grid">
     <div class="grid-1">
-      <img src="img/money.jpg" alt="" srcset="">
+      <img
+        src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        alt="" srcset="">
     </div>
     <div class="grid-2">
       <p>Giving Back...
@@ -65,7 +71,31 @@
 
 
 </body>
-<script src="script.js"></script>
+<script src="script.js">
+  var i = 0; // start point
+  var images = [];
+  var time = 3000;
+
+  //image list
+  images[0] = 'img/give1.jpg';
+  images[1] = 'img/give2.jpg';
+  images[2] = 'img/give3.jpg';
+
+  // change image
+  function changeImg() {
+    document.slide.src = images[i];
+
+    if (i < images.length - 1) {
+      i++;
+    } else {
+      1 = 0
+    }
+    setTimeout("changeImg()".time);
+  }
+
+  window.onload = changeImg;
+
+</script>
 <footer>
   @LaRoche.edu
 </footer>
