@@ -211,23 +211,33 @@ button {
   /*Landing (index) page */
   .landing {    
     text-align: center;
-    margin: 0 15% 0 15%;  
+    /*margin: 0 15% 0 15%;*/  
+    background-color: black;
+    text-align: center;  
   }
 
   .landing img {
-    max-width: 60%;   
-    max-height: auto;
+    width: 10%;
+    height: auto;
   }
 
   @media only screen and (max-width: 1024px) {
   .landing {
       margin: 0px;
+      text-align: center;
     }
   }
 
+  @media only screen and (max-width: 1024px) {
+    .landing img {
+      width: 100px;
+      height: 100px;
+    }
+    }
+
   @media only screen and (max-width: 600px) {
     .landing img {
-        max-width: 100%;
+        
         height: auto;
       }
     }
@@ -311,8 +321,10 @@ a.links:hover {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
+  color: white;
+  font-size: 1.4em;
   animation: 
-    typing 3.5s steps(40, end),
+    typing 3.7s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
