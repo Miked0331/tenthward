@@ -1,3 +1,5 @@
+
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -273,7 +275,21 @@ button {
 footer {
   color: white;
   height: 10vh;
-  background-color: #555;
+  background-color: #333;
+}
+
+.footer-grid {
+  display: block;
+  text-align: center;
+}
+
+.footer-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-2 a {
+  padding-right: 10px;
 }
 
 /*Link page stylesheet*/
